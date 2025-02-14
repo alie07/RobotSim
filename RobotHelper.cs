@@ -75,11 +75,11 @@ namespace RobotSim
             string[] parts = input.Split(',');
             if (parts.Length == 3)
             {
-                if (!int.TryParse(parts[0], out x) || x > 4)
+                if (!int.TryParse(parts[0], out x) || (x > 4 || x < 0))
                 {
                     Console.WriteLine("Invalid X coordinate, Please read Instruction.txt");
                 }
-                if (!int.TryParse(parts[1], out y) || x > 4)
+                if (!int.TryParse(parts[1], out y) || (y > 4 || y < 0))
                 {
                     Console.WriteLine("Invalid Y coordinate, Please read Instruction.txt");
                 }
