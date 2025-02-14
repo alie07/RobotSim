@@ -1,0 +1,45 @@
+﻿Test File:
+
+```
+
+Welcome to Robot Simulator
+Please Enter your Command (or type 'exit' to quit):ads
+Unrecognized Command. Please enter a valid command (Place, Move, Left, Right, Report)
+Please Enter your Command (or type 'exit' to quit):Place
+Invalid Place Command. Example Place command 'Place 0,0,North;
+Please Enter your Command (or type 'exit' to quit):Move
+Please place the robot first
+Please Enter your Command (or type 'exit' to quit):Place 5,5,North
+Invalid X coordinate, Please read Instruction.txt
+Invalid Y coordinate, Please read Instruction.txt
+Please Enter your Command (or type 'exit' to quit):Place 4,4,North
+Please Enter your Command (or type 'exit' to quit):Right
+Please Enter your Command (or type 'exit' to quit):Report
+4,4,East
+Please Enter your Command (or type 'exit' to quit):Move
+Command cannot be executed: You've reached the end of the table
+Current position is: 4,4,East
+Please Enter your Command (or type 'exit' to quit):Move
+Command cannot be executed: You've reached the end of the table
+Current position is: 4,4,East
+Please Enter your Command (or type 'exit' to quit):Left
+Please Enter your Command (or type 'exit' to quit):Left
+Please Enter your Command (or type 'exit' to quit):Report
+4,4,West
+Please Enter your Command (or type 'exit' to quit):Move
+Please Enter your Command (or type 'exit' to quit):Report
+3,4,West
+Please Enter your Command (or type 'exit' to quit):Right
+Please Enter your Command (or type 'exit' to quit):Report
+3,4,North
+Please Enter your Command (or type 'exit' to quit):Move
+Command cannot be executed: You've reached the end of the table
+Current position is: 3,4,North
+Please Enter your Command (or type 'exit' to quit):Right
+Please Enter your Command (or type 'exit' to quit):Right
+Please Enter your Command (or type 'exit' to quit):Report
+3,4,South
+Please Enter your Command (or type 'exit' to quit):Move
+Please Enter your Command (or type 'exit' to quit):Report
+3,3,South
+Please Enter your Command (or type 'exit' to quit):

@@ -1,0 +1,33 @@
+﻿Run the program and you will see the following output:
+"Welcome to Robot Simulator"
+"Please Enter your Command (or type 'exit' to quit):"
+
+Commands acceptable:
+Place
+Move
+Left
+Right
+Report
+exit
+
+Directions:
+NORTH
+SOUTH
+EAST
+WEST
+
+Table is 5x5 and the robot can only move within the table.
+The starting position of the robot is 0,0.
+the Farthest position the robot can move is 4,4.
+
+The program will keep asking for commands until you type 'exit' to quit the program.
+Place command will ask for the x and y coordinates and the direction the robot is facing.
+Place must in this format --> Place 0,0,NORTH
+Place should be the first command to be entered.
+If the place command is not entered, the program will not accept any other commands.
+If the place command is entered, the program will accept the other commands.
+Move command will move the robot one unit in the direction it is facing.
+Left command will rotate the robot 90 degrees to the left.
+Right command will rotate the robot 90 degrees to the right.
+Report command will output the current position of the robot.
+exit command will quit the program.
